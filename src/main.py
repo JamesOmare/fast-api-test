@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Path
-from .src.auth_routes import auth
-from .src.order_routes import order
+from .auth_routes import auth
+from .order_routes import order
 
 app = FastAPI()
 

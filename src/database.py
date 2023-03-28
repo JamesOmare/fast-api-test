@@ -5,5 +5,5 @@ engine = create_engine('postgresql://james:foxtrot09er@localhost/fastapi-pizza',
 
 Base = declarative_base()
 
-session = sessionmaker()
+Session = sessionmaker()
 
